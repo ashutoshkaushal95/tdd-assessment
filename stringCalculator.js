@@ -1,8 +1,6 @@
-// stringCalculator.js
 const add = (numbers) => {
-  return 0;
+  if (numbers === "") return 0;
+  return Number(numbers);
 };
-
-console.log(add(""));
 
 module.exports = add;
